@@ -5,6 +5,6 @@
   },
   "main": "index.js",
       "scripts": {
-          "start": "micro-bot"
+          "start": "node index.js"
         }
 }
