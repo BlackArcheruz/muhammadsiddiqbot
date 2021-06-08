@@ -56,14 +56,7 @@ bot.on('message',(msg)=>{
   bot.sendMessage(msg.chat.id,"Eee men eng yomon botmanu nega start bosding");
   }
 });
-bot.on('message', (msg) => {
 
-  var id = "id";
-  if (msg.text.toString().toLowerCase().includes(id)) {
-    bot.sendMessage(msg.chat.id, "manavi id mi: " + msg.chat.id);
-  }
-
-});
 bot.on('message',(msg)=>{
   var Ishla = "ishla";
   if (msg.text.toString().toLowerCase().indexOf(Ishla) === 0) {
@@ -93,12 +86,7 @@ bot.kickChatMember(msg.chat.id,  msg.from.id);
 }
 
 });
-bot.on('message',(msg)=>{
-  var what = 'what';
-  if(msg.text.toString().toLowerCase().indexOf(what)===0){
-    bot.sendMessage(msg.chat.id, "jinni")
-  }
-});
+
 bot.on('message',(msg)=>{
   var sokish = 'jalab';
   if(msg.text.includes(sokish)===0){
